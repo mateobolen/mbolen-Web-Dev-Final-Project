@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(15, 94, 36);
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(181, 181, 181);
+}
+
+td {
+    background-color: rgb(60, 110, 63);
+}
+
+th {
+    background-color: rgb(87, 89, 87);
+}
+
+a {
+    color: #0066cc;
+}
+
+.site_header {
+    width: 100%;
+    height: 30vh;
+    background-image: url("waterman_green.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    font-size: 1em;
+}
